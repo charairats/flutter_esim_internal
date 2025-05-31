@@ -11,7 +11,7 @@ class MethodChannelEsim extends EsimPlatformInterface {
   /// The method channel used to interact with the native platform.
   /// Make sure this channel name is unique and matches the one used in the native code.
   static const MethodChannel _channel = MethodChannel(
-      'next_flutter_esim_internal/esim_channel'); // <--- *** ตั้งชื่อ Channel ให้ไม่ซ้ำใครนะครับ! ***
+      'next.myais.mobile_and_device/esim_channel');
 
   @override
   Future<bool> isEsimSupported() async {

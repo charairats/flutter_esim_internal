@@ -30,8 +30,8 @@ class FlutterEsimInternalPlugin : FlutterPlugin, MethodCallHandler, ActivityAwar
     private var installationBroadcastReceiver: BroadcastReceiver? = null
 
     companion object {
-        private const val CHANNEL_NAME = "com.yourcompany.flutter_esim_internal/esim_channel" // <<-- แก้ไขให้ตรงกับ Dart
-        private const val ACTION_ESIM_DOWNLOAD_RESULT_INTERNAL = "com.yourcompany.flutter_esim_internal.action.DOWNLOAD_ESIM_RESULT"
+        private const val CHANNEL_NAME = "next.myais.mobile_and_device/esim_channel"
+        private const val ACTION_ESIM_DOWNLOAD_RESULT_INTERNAL = "next.myais.mobile_and_device.action.DOWNLOAD_ESIM_RESULT"
 
         // String constants for status callback to Dart
         const val STATUS_SUCCESS = "success"
